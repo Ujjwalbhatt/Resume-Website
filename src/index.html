@@ -79,26 +79,80 @@
                 <p>Your home may be repossessed if you do not keep up repayments on your mortgage</p>
             </div>
             <div class="contact_page flex py-16 justify-evenly">
-                <div class="contact_get_in_touch w-80 ">
+                <div class="contact_get_in_touch w-[30rem] ">
                     <h1 class="text-[#ff7518] text-[2rem] ">GET IN TOUCH</h1><br>
-                    <div class=text-[12px]>
+                    <div class=text-[14px]>
                     <P>For dependable advice and a fee-free review of your current situation, please leave your details
                         below and I will call you back with more information.</P><br>
-                    <a href=mailto:agentavery@sample.com?subject="HTML link">Sample2gmail.com</a>  
-                    <p>0343 342342</p>
+                        <p>0343 342342</p> <br>
+                    <a href=mailto:agentavery@sample.com?subject="HTML link">Sample2gmail.com</a>
                  </div> 
                 </div>
-                <div class="contact_textarea">
-                    <div class="inner_textarea">
+                <div class="contact_textarea w-[30rem]">
+                    <div class="inner_textarea items-center">
                         <div class="text_area_details">
-                            <label for="Name" class=" text-[12px] ">
+                            <div class="Name_container">
+                            <label for="Name" class=" text-[13px]">
                                 Name * 
-                            </label>
+                            </label> <br>
                             <input 
-                            class="input_text border-b-2"
-                            type="text" placeholder="Name"  
-                            required="" aria-required="true" maxlength="100" aria-invalid="false"
+                            class="input_text border-b-[1px] my-1 border-[#22201f] text-[15px] hover:border-[1px] border-l-neutral-800"
+                            type="text" 
+                            placeholder="Name"  
+                            required="" 
+                            aria-required="true" 
+                            maxlength="100" 
+                            aria-invalid="false"
                             >
+                        </div>
+                        <div class="Email_container">
+                            <label for="Email" class=" text-[13px]">
+                                Email * 
+                            </label> <br>
+                            <input 
+                            class="input_text border-b-[1px] my-1 border-[#22201f] text-[15px] hover:border-[1px] border-l-neutral-800"
+                            type="text" 
+                            placeholder="Email"  
+                            required="" 
+                            aria-required="true" 
+                            maxlength="100" 
+                            aria-invalid="false"
+                            >
+                        </div>
+                        <div class="Contact_container mb-2">
+                            <label for="Contact" class=" text-[13px] ">
+                                Phone * 
+                            </label> <br>
+                            <input 
+                            class="input_text border-b-[1px] my-1 border-[#22201f] text-[15px] hover:border-[1px] border-l-neutral-800"
+                            type="text" 
+                            placeholder="Contact Number"  
+                            required="" 
+                            aria-required="true" 
+                            maxlength="100" 
+                            aria-invalid="false"
+                            >
+                        </div>
+                        <p class="text-[13px]">How would you like to be contacted?</p>
+                        <div class="checkbox text-[13px] " >
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1"> Email</label><br>
+                            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                            <label for="vehicle2"> Phone</label><br>
+                        </div>
+                        <div class="message_box  text-[13px]  font-medium">
+                            <label for="message" > Leave us a message <br>
+                            <textarea name="message" id="message_box" cols="30" rows="10"
+                            class="input_text border-b-[1px] my-1 border-[#22201f] hover:border-[1px] border-l-neutral-800 text-gray-600 p-2">Leave us a message</textarea>
+                        </label>
+                        </div>
+                        <div class="checkbox text-[13px] my-2">
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1"> I agree to the <span class="underline">Terms and Conditions</span></label>
+                        </div>
+                        
+                        <div class="submit_button">
+                            <button type="submit" class="input_text bg-black text-white text-[13px] font-medium w-[15.5rem] h-10 hover:bg-[#1d1414] hover:text-white hover:shadow-lg">Submit</button>
                         </div>
                         </div>
                     </div>
