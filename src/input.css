@@ -1,6 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+        scroll-behavior: smooth;
+    }
+
 .input_text{
     width: 22rem;
+}
+.card
+{
+    margin-top: 5rem ;
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.card_text{
+    margin-top: 2rem;
+    font-size: 1.5rem;
 }
